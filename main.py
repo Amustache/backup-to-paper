@@ -1,6 +1,7 @@
 import argparse
 from math import ceil
 from PIL import Image
+from tqdm import tqdm
 
 DEBUG = False
 DPI = 300
@@ -78,7 +79,7 @@ def multi_pages(bits=None, filename=None):
             range(0, len(bits), (bits_width_no_parity * bits_height))]
 
     pdf = []
-    for b in bits:
+    for b in tqdm(bits):
         pdf.append(create_page(b))
 
     if pdf:
