@@ -1,6 +1,17 @@
 # paper-backup
 backup files to paper so that you can print them
 
+## why??
+![./assets/quote1.png](./assets/quote1.png)
+
+![./assets/quote2.png](./assets/quote2.png)
+
+![./assets/quote3.png](./assets/quote3.png)
+
+![./assets/quote4.png](./assets/quote4.png)
+
+![./assets/quote5.png](./assets/quote5.png)
+
 ## setup
 need python
 
@@ -15,4 +26,4 @@ need python
 2. then print the result!!!
 
 # demo!!!
-[clik here](demo.mp4)
+[clik here](assets/demo.mp4)
